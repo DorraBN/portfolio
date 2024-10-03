@@ -1,0 +1,26 @@
+.terminal__skills__container {
+	display: flex;
+	flex-direction: column; /* S'assurer que chaque groupe commence avec un <h3> */
+	width: 100%;
+	gap: 2.2rem; /* Espace entre les sections */
+}
+
+.terminal__skills__container h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold; /* Gras pour les titres */
+	width: 100%;
+	font-size: 20px;
+	color: aliceblue; /* Couleur des titres */
+}
+
+.terminal__skills__container .terminal-icon-row {
+	display: flex;
+	flex-wrap: nowrap; /* Empêche les icônes de se replier sur plusieurs lignes */
+	gap: 120px; /* Espace entre les icônes */
+	justify-content: flex-start; /* Aligner les icônes au début de la ligne */
+	width: 100%;
+	overflow-x: auto; /* Permet de défiler horizontalement si les icônes dépassent */
+}
+
+

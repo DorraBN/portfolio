@@ -1,0 +1,63 @@
+---
+import TerminalIcon from '../../atoms/terminal-icon/TerminalIcon.astro';
+import Terminal from '../terminal/Terminal.astro';
+import './skills-on-terminal.css';
+import Title from '../../../atoms/Title.astro';
+import Title1 from '../../../atoms/Title1.astro';
+---
+<Title1 contenido="My skills" />
+<Terminal nombre="DorraBN">
+	
+	<div class="terminal__skills">
+		
+		<div class="terminal__skills__container">
+			<h3>Langages de programmation</h3>
+			<div class="terminal-icon-row">
+			<TerminalIcon src="/assets/c.png" color="#00599C" name="C++" />
+				<TerminalIcon src="/assets/c++.svg" color="#00599C" name="C++" />
+				<TerminalIcon src="/assets/java.svg" color="#007396" name="Java" />
+				<TerminalIcon src="/assets/php.svg" color="#777BB4" name="PHP" />
+				<TerminalIcon src="/assets/py.svg" color="#306998" name="Python" />
+			</div>
+
+			<h3>Frameworks backend</h3>
+			<div class="terminal-icon-row">
+				<TerminalIcon src="/assets/spring-boot.svg" color="#6DB33F" name="Springboot" />
+				<TerminalIcon src="/assets/laravel.svg" color="#FF2D20" name="Laravel" />
+				<TerminalIcon src="/assets/nodejs.svg" color="#68A063" name="Node.js" />
+			</div>
+
+			<h3>Frameworks frontend</h3>
+			<div class="terminal-icon-row">
+				<TerminalIcon src="/assets/angular.svg" color="#FF4747" name="Angular" />
+				<TerminalIcon src="/assets/bootstrap.svg" color="#7738ff" name="Bootstrap" />
+				<TerminalIcon src="/assets/flutter.svg" color="#42A5F5" name="Flutter" />
+				<TerminalIcon src="/assets/ionic.svg" color="#3880FF" name="Ionic" />
+			</div>
+
+			<h3>Bases de données</h3>
+			<div class="terminal-icon-row">
+				<TerminalIcon src="/assets/mongodb.svg" color="#4DB33D" name="MongoDB" />
+				<TerminalIcon src="/assets/mysql.svg" color="#4479A1" name="MySQL" />
+				<TerminalIcon src="/assets/firebase.svg" color="#FFCA28" name="Firebase" />
+			</div>
+
+			<h3>Outils de machine learning</h3>
+			<div class="terminal-icon-row">
+				<TerminalIcon src="/assets/tensorflow.svg" color="#FF6F00" name="TensorFlow" />
+				<TerminalIcon src="/assets/k.svg" color="#D00000" name="Keras" />
+			
+				<TerminalIcon src="/assets/jupyter.svg" color="#F37626" name="Jupyter Notebook" />
+				<TerminalIcon src="/assets/gc.svg" color="#FFCC00" name="Google Colab" />
+			</div>
+
+			<h3>Outils de développement</h3>
+			<div class="terminal-icon-row">
+				<TerminalIcon src="/assets/git.svg" color="#F05032" name="Git" />
+				<TerminalIcon src="/assets/github.svg" color="#181717" name="GitHub" />
+				<TerminalIcon src="/assets/vs.svg" color="#181717" name="VsCode" />
+				  <TerminalIcon src="/assets/docker.svg" color="#2496ED" name="Docker" />
+			</div>
+		</div>
+	</div>
+</Terminal>

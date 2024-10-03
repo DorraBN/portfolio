@@ -1,0 +1,26 @@
+---
+import './hero.css';
+import Boton from '../atoms/Boton.astro';
+import SocialIcons from '../SocialIcons.astro';
+---
+<section class="hero">
+  <div class="hero__container">
+    <div class="text__content">
+      <h1 class="hero__title color__gradiente">Hi there, I'm Dorra 👋</h1>
+      <p class="hero__text">
+        I am a third-year Computer Engineering student at the National School of Engineers of Tunis (ENSIT).
+      </p>
+      <div class="footer__container">
+        <SocialIcons width="23" height="23" />
+      </div>
+      <Boton href="#projects" texto="See my projects" />
+    </div>
+    <img
+      class="hero__img"
+      src="/assets/dev.png" 
+    
+     
+    />
+  </div>
+</section>
+

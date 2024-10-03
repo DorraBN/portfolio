@@ -1,0 +1,80 @@
+---
+const { width, height } = Astro.props;
+
+const socialLinks = [
+    {
+        title: 'CV',
+        icon: 'tabler:file-cv',
+        href: '../docs/cv.pdf',
+    },
+    {
+        title: 'Github',
+        icon: 'mdi:github',
+        href: 'https://github.com/DorraBN',
+    },
+    {
+        title: 'Email',
+        icon: 'fluent:mail-28-regular',
+        href: 'mailto:dorransira18@gmail.com',
+    },    {
+        title: 'Certification',
+        icon: 'mdi:certificate-outline',
+        href: 'https://www.credly.com/users/dorra-ben-nsira', // Example of certification link
+    },
+    {
+        title: 'Phone',
+        icon: 'mdi:phone',
+       
+        action: () => alert('Phone Number: +21653143270'),
+    },
+
+     
+];
+---
+
+<div class="icons__container">
+    {socialLinks.map((data) => (
+        <a
+            href={data.href}
+            target={data.title !== 'Email' ? "_blank" : ""}
+            rel="nofollow noreferrer noopener"
+            key={data.title}
+        >
+            <iconify-icon
+                class={`skill__icon ${data.title} icon`}
+                icon={data.icon}
+            />
+        </a>
+    ))}
+</div>
+
+<style>
+    .icons__container {
+        display: flex;
+        width: 29.6rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .skill__icon {
+        color: #dcd8fc;
+        transition: color 0.3s ease;
+        font-size: 50px; 
+    }
+    .CV:hover {
+        color: #8e64ff;
+    }
+    .Github:hover {
+        color: pink;
+    }
+    
+    .Email:hover {
+        color: #d44638;
+    }
+     .Phone:hover {
+        color: green;
+    }
+    .Certification:hover {
+        color: orange;
+    }
+</style>
