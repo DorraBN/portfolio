@@ -87,13 +87,13 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/img/ca1.png',
+		title: 'Education website',
+		skills: ['React'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Education Website Using ReactJS',
+		demoURL: 'https://dorrabn.github.io/Education-Website-Using-ReactJS/',
+		repoURL: 'https://github.com/DorraBN/Education-Website-Using-ReactJS',
 		anim: 'fade-right',
 	}
 ];
@@ -101,20 +101,20 @@ export const portafolioData = [
 const skillIcons = {
 	JavaScript: 'skill-icons:javascript',
 	React: 'skill-icons:react-dark',
-	Flutter: 'skill-icons:flutter',
-	Angular: 'skill-icons:angular-dark',
-	Springboot: 'skill-icons:springboot',
-	CSS: 'skill-icons:css',
-	Mysql: 'skill-icons:mysql',
-	Firebase: 'skill-icons:firebase',
-	Ionic: 'skill-icons:ionic',
-	PHP: 'skill-icons:php',
-	Python: 'skill-icons:python',
-	Pandas: 'skill-icons:pandas',
-	numpy: 'skill-icons:numpy',
-	Mongodb: 'skill-icons:mongodb',
-	Bootstrap: 'skill-icons:bootstrap',
-	Tailwind: 'skill-icons:tailwindcss-dark'
+	Flutter: 'simple-icons:flutter',          // Simple Icons Flutter Icon
+	Angular: 'simple-icons:angular',          // Font Awesome Angular Icon
+	Springboot: 'simple-icons:springboot',    // Simple Icons Springboot Icon          // Spring Boot: Correct icon name is 'spring'
+	CSS: 'skill-icons:css3',                   // CSS: Correct icon name is 'css3'
+	Mysql: 'skill-icons:mysql-dark',           // MySQL: Correct icon name is 'mysql-dark'
+	Firebase: 'simple-icons:firebase',        // Simple Icons Firebase Icon
+  Ionic: 'fa-brands fa-ionic',              // Font Awesome Ionic Icon
+  PHP: 'fa-brands fa-php',                 // PHP: Correct icon name is 'php-dark'
+	Python: 'skill-icons:python-dark',         // Python: Correct icon name is 'python-dark'
+	Pandas: 'skill-icons:pandas',              
+	numpy: 'skill-icons:numpy',                
+	Mongodb: 'skill-icons:mongodb',            
+	Bootstrap: 'skill-icons:bootstrap',        
+	Tailwind: 'skill-icons:tailwindcss'        // Tailwind: Correct icon name is 'tailwindcss'
   };
   
 
