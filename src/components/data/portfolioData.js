@@ -17,12 +17,12 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '/img/i1.png',
 		title: 'Restaurant',
 		skills: ['Flutter', 'Laravel','Mysql'],
 		descripcion:
 			'Table Management, Menu Management, Reservation Management, Point of Sale System, Billing and Payment, Order Management',
-		demoURL: '',
+		demoURL: '/img/restaurent.pdf',
 		repoURL: '',
 		anim: 'fade-right',
 	},
@@ -66,24 +66,15 @@ export const portafolioData = [
 		repoURL: '',
 		anim: 'fade-left',
 	},
+
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: '/img/c1.jpg.png',
+		title: 'FullStack gym app',
+		skills: ['Angular', 'NodeJs','Mysql'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'FullStack gym app.',
+		demoURL: '/img/sport.pdf',
+		repoURL: 'https://github.com/DorraBN/App_fullStack_salle_de_sport',
 		anim: 'fade-left',
 	},
 	{
@@ -95,14 +86,25 @@ export const portafolioData = [
 		demoURL: 'https://dorrabn.github.io/Education-Website-Using-ReactJS/',
 		repoURL: 'https://github.com/DorraBN/Education-Website-Using-ReactJS',
 		anim: 'fade-right',
+	},
+	{
+		imgSrc: '/img/ca.png',
+		title: ' showcase website',
+		skills: ['Angular'],
+		descripcion:
+			'showcase website',
+		demoURL: '/img/site.pdf',
+		repoURL: 'https://github.com/DorraBN/greenix-angular-version',
+		anim: 'fade-right',
 	}
 ];
 
 const skillIcons = {
 	JavaScript: 'skill-icons:javascript',
 	React: 'skill-icons:react-dark',
-	Flutter: 'simple-icons:flutter',          // Simple Icons Flutter Icon
-	Angular: 'simple-icons:angular',          // Font Awesome Angular Icon
+	Flutter: 'simple-icons:flutter', 
+	Laravel: 'simple-icons:laravel',           // Simple Icons Flutter Icon
+	Angular: 'skill-icons:angular-dark',          // Font Awesome Angular Icon
 	Springboot: 'simple-icons:springboot',    // Simple Icons Springboot Icon          // Spring Boot: Correct icon name is 'spring'
 	CSS: 'skill-icons:css3',                   // CSS: Correct icon name is 'css3'
 	Mysql: 'skill-icons:mysql-dark',           // MySQL: Correct icon name is 'mysql-dark'
@@ -114,7 +116,9 @@ const skillIcons = {
 	numpy: 'skill-icons:numpy',                
 	Mongodb: 'skill-icons:mongodb',            
 	Bootstrap: 'skill-icons:bootstrap',        
-	Tailwind: 'skill-icons:tailwindcss'        // Tailwind: Correct icon name is 'tailwindcss'
+	Tailwind: 'skill-icons:tailwindcss' , 
+	NodeJs: 'skill-icons:nodejs-dark'
+   
   };
   
 
