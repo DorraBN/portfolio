@@ -57,15 +57,7 @@ export const portafolioData = [
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
-	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Recommender System for Movies',
-		skills: ['Python','Pandas', 'NumPy','Scikit-learn' ],
-		descripcion:'In this project, I build a movie recommendation system based on user ratings and movie attributes.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
+	
 
 	{
 		imgSrc: '/img/c1.jpg.png',
