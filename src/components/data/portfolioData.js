@@ -23,7 +23,17 @@ export const portafolioData = [
 		descripcion:
 			'Table Management, Menu Management, Reservation Management, Point of Sale System, Billing and Payment, Order Management',
 		demoURL: '/img/restaurent.pdf',
-		repoURL: '',
+		repoURL: 'https://github.com/DorraBN/stage',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: '/img/flower.png',
+		title: 'flower shop',
+		skills: ['Angular', 'Springboot','Mysql','Docker'],
+		descripcion:
+			'Table Management, Menu Management, Reservation Management, Point of Sale System, Billing and Payment, Order Management',
+		demoURL: '/img/restaurent.pdf',
+		repoURL: 'https://github.com/DorraBN/flowershop',
 		anim: 'fade-right',
 	},
 	{
@@ -79,6 +89,7 @@ export const portafolioData = [
 		repoURL: 'https://github.com/DorraBN/Education-Website-Using-ReactJS',
 		anim: 'fade-right',
 	},
+	
 	{
 		imgSrc: '/img/ca.png',
 		title: ' showcase website',
@@ -109,7 +120,8 @@ const skillIcons = {
 	Mongodb: 'skill-icons:mongodb',            
 	Bootstrap: 'skill-icons:bootstrap',        
 	Tailwind: 'skill-icons:tailwindcss' , 
-	NodeJs: 'skill-icons:nodejs-dark'
+	NodeJs: 'skill-icons:nodejs-dark',
+	Docker: 'skill-icons:docker'
    
   };
   
