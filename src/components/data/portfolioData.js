@@ -31,8 +31,8 @@ export const portafolioData = [
 		title: 'flower shop',
 		skills: ['Angular', 'Springboot','Mysql','Docker'],
 		descripcion:
-			'Table Management, Menu Management, Reservation Management, Point of Sale System, Billing and Payment, Order Management',
-		demoURL: '/img/restaurent.pdf',
+			'shop Management, Order Management',
+		demoURL: '/img/p1.pdf',
 		repoURL: 'https://github.com/DorraBN/flowershop',
 		anim: 'fade-right',
 	},
